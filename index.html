@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catch Mansi Falling</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="game-container">
+    <div id="score-board">Score: 0</div>
+    <div id="timer">Time: 01:30</div>
+    <div id="player"></div>
+    <img id="falling-image" src="image.jpg" alt="falling image" />
+    <button id="play-button" onclick="startGame()">Play</button>
+    <button id="left-button" onclick="movePlayerLeft()">Left</button>
+    <button id="right-button" onclick="movePlayerRight()">Right</button>
+    <button id="restart-button" onclick="restartGame()">Restart Game</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
